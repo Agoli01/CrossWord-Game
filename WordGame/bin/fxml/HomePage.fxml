@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <TextField fx:id="name" accessibleRole="LIST_VIEW" layoutX="501.0" layoutY="233.0" pickOnBounds="false" prefHeight="31.0" prefWidth="224.0" promptText="Name" AnchorPane.topAnchor="233.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="username" layoutX="501.0" layoutY="293.0" pickOnBounds="false" prefHeight="31.0" prefWidth="224.0" promptText="Handle">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Button fx:id="startBtn" layoutX="554.0" layoutY="373.0" mnemonicParsing="false" onAction="#startGame" prefHeight="31.0" prefWidth="121.0" style="-fx-background-color: blue;" text="Start Game" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="invalid_user" alignment="CENTER" layoutX="457.0" layoutY="342.0" prefHeight="31.0" prefWidth="314.0" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="109.0" fitWidth="482.0" layoutX="218.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/wgtitle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="307.0" fitWidth="296.0" layoutX="155.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/wgimg.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="378.0" layoutY="480.0" mnemonicParsing="false" onAction="#leaderBoardLoad" prefHeight="31.0" prefWidth="144.0" style="-fx-background-color: slategrey;" text="Highest Scores" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="378.0" layoutY="526.0" mnemonicParsing="false" onAction="#endGame" prefHeight="6.0" prefWidth="144.0" style="-fx-background-color: slategrey;" text="EXIT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

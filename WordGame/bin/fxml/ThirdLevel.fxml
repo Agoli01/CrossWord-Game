@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="600" prefWidth="1000" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ThirdController">
+
+   <children>
+      <TextFlow layoutX="299.5" layoutY="96.0">
+         <children>
+            <GridPane alignment="CENTER" gridLinesVisible="true" prefHeight="400.0" prefWidth="400.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField fx:id="tf00" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf01" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf02" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf03" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="3">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf04" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="4">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf05" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="5">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf06" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="6">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf10" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf11" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf12" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf13" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf14" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf15" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf16" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf20" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf21" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf22" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf23" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf24" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf25" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf26" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf30" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf31" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf32" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf33" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf34" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf35" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf36" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf40" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf41" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf42" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf43" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf44" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf45" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf46" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf50" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf51" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf52" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf53" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf54" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf55" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf56" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf60" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf61" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf62" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf63" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf64" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf65" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf66" alignment="CENTER" onAction="#text" onKeyTyped="#keyText" onMouseClicked="#hint" onMouseEntered="#setColor" onMouseExited="#resetColor" prefHeight="106.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </GridPane>
+         </children>
+      </TextFlow>
+      <Button fx:id="thirdLevelExit" layoutX="521.0" layoutY="523.0" mnemonicParsing="false" onAction="#updatePoints" prefHeight="32.0" prefWidth="79.0" style="-fx-background-color: slategrey;" text="SUBMIT" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Label fx:id="score" layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="129.0" text="SCORE : 0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="hintLabel" alignment="CENTER" layoutX="28.0" layoutY="259.0" prefHeight="80.0" prefWidth="243.0" text="N/A" textAlignment="JUSTIFY" textFill="#00830d" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="400.0" layoutY="523.0" mnemonicParsing="false" onAction="#submit" prefHeight="32.0" prefWidth="79.0" style="-fx-background-color: slategrey;" text="CHECK" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="300.0" layoutY="30.0" prefHeight="48.0" prefWidth="400.0" text="Level 3 : A Drink for Two" textFill="RED" wrapText="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="timer" alignment="CENTER" layoutX="785.0" layoutY="260.0" prefHeight="80.0" prefWidth="137.0" text="0">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="829.0" layoutY="15.0" mnemonicParsing="false" onAction="#leaderBoardLoad" prefHeight="31.0" prefWidth="157.0" style="-fx-background-color: blue;" text="Leaderboard" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="28.0" layoutY="220.0" prefHeight="39.0" prefWidth="243.0" text="HINT" wrapText="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="732.0" layoutY="220.0" prefHeight="39.0" prefWidth="243.0" text="COUNTDOWN" wrapText="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
